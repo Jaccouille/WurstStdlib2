@@ -806,6 +806,18 @@ public function unit.incAbilityLevel(int abilityId)
 public function unit.decAbilityLevel(int abilityId)
 	DecUnitAbilityLevel(this, abilityId)
 
+public function unit.addItemToStock(int itemId, int currentStock, int stockMax)
+    AddItemToStock(this, itemId, currentStock, stockMax)
+
+public function unit.addUnitToStock(int unitId, int currentStock, int stockMax)
+    AddUnitToStock(this, unitId, currentStock, stockMax)
+
+public function unit.removeItemFromStock(int itemId)
+    RemoveItemFromStock(this, itemId)
+
+public function unit.removeUnitFromStock(int unitId)
+    RemoveUnitFromStock(this, unitId)
+
 public function unit.removeGuardPosition()
 	RemoveGuardPosition(this)
 
